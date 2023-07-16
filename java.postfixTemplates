@@ -1,2 +1,2 @@
 .var : Extracts variable as inferred 'var' type
-    NON_VOID                 →  var $VAR:suggestVariableName()$ = $expr$;
+    NON_VOID                 →  final var $VAR:suggestVariableName()$ = $expr$;
